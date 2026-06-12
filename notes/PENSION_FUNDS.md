@@ -187,3 +187,4 @@ Sources:
 - [MEV Capital: IL Hedging (CoinDesk)](https://www.coindesk.com/business/2023/03/15/defi-focused-asset-manager-mev-capital-offers-uniswap-hedging-strategy/)
 - [Panoptic: Turning IL into Gain](https://panoptic.xyz/blog/turning-impermanent-loss-into-gain)
 - [Milliman: LDI FAQ](https://www.milliman.com/en/insight/frequently-asked-questions-liability-driven-investing-pension)
+s
