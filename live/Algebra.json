@@ -1,0 +1,66 @@
+{
+  "_comment": "Algebra Integral deployments by chain. Ordered by liquidity depth (most liquid first).",
+  "_recommended_start": "42161 (Arbitrum - Camelot V4, largest TVL, Integral v1.2 with plugin system)",
+
+  "42161": {
+    "_chain": "Arbitrum One",
+    "camelot-v4": {
+      "_version": "Algebra Integral v1.2",
+      "_note": "Most liquid Algebra deployment. Plugin system with adaptive fee + vol oracle.",
+      "AlgebraFactory": "0xBefC4b405041c5833f53412fF997ed2f697a2f37",
+      "PluginFactory": "0x222F135D84bb4852D2cBBdD6fCabafD043687a71",
+      "SwapRouter": "0x4ee15342d6Deb297c3A2aA7CFFd451f788675F53",
+      "NonfungiblePositionManager": "0xA602E7195fcC9364210181DffA33482B5adCE9d8",
+      "Quoter": "0xFe24b2cDfF01B644995bc248bA8497467d688F7B"
+    },
+    "camelot-v3": {
+      "_version": "Algebra v1.9",
+      "_note": "Legacy. Still active but migrating to V4.",
+      "AlgebraFactory": "0x1a3c9B1d2F0529D97f2afC5136Cc23e58f1FD35B",
+      "SwapRouter": "0x1F721E2E82F6676FCE4eA07A5958cF098D339e18",
+      "NonfungiblePositionManager": "0x00c7f3082833e796A5b3e4Bd59f6642FF44DCD15",
+      "Quoter": "0x0Fc73040b26E9bC8514fA028D998E73A254Fa76E"
+    }
+  },
+
+  "56": {
+    "_chain": "BNB Smart Chain",
+    "thena": {
+      "_version": "Algebra v1.0",
+      "_note": "THENA FUSION. Second largest Algebra deployment by TVL.",
+      "AlgebraFactory": "0x306F06C147f064A010530292A1EB6737c3e378e4",
+      "AlgebraPoolDeployer": "0xc89F69Baa3ff17a842AB2DE89E5Fc8a8e2cc7358",
+      "SwapRouter": "0x327Dd3208f0bCF590A66110aCB6e5e6941A4EfA0",
+      "NonfungiblePositionManager": "0xa51ADb08Cbe6Ae398046A23bec013979816B77Ab",
+      "Quoter": "0xeA68020D6A9532EeC42D4dB0f92B83580c39b2cA"
+    }
+  },
+
+  "137": {
+    "_chain": "Polygon PoS",
+    "quickswap": {
+      "_version": "Algebra v1.0",
+      "_note": "QuickSwap V3. Oldest Algebra deployment, mature pools.",
+      "AlgebraFactory": "0x411b0fAcC3489691f28ad58c47006AF5E3Ab3A28",
+      "AlgebraPoolDeployer": "0x2D98E2FA9da15aa6dC9581AB097Ced7af697CB92",
+      "SwapRouter": "0xf5b509bB0909a69B1c207E495f687a596C168E12",
+      "NonfungiblePositionManager": "0x8eF88E4c7CfbbaC1C163f7eddd4B578792201de6",
+      "Quoter": "0xa15F0D7377B2A0C0c10db057f641beD21028FC89",
+      "AlgebraEternalFarming": "0x8a26436e41d0b5fc4C6Ed36C1976fafBe173444E",
+      "FarmingCenter": "0x7F281A8cdF66eF5e9db8434Ec6D97acc1bc01E78"
+    }
+  },
+
+  "2000": {
+    "_chain": "Dogechain",
+    "quickswap": {
+      "_version": "Algebra v1.0",
+      "_note": "QuickSwap on Dogechain. Low liquidity.",
+      "AlgebraFactory": "0xd2480162Aa7F02Ead7BF4C127465446150D58452",
+      "AlgebraPoolDeployer": "0x56c2162254b0E4417288786eE402c2B41d4e181e",
+      "SwapRouter": "0x4aE2bD0666c76C7f39311b9B3e39b53C8D7C43Ea",
+      "NonfungiblePositionManager": "0x0b012055F770AE7BB7a8303968A7Fb6088A2296e",
+      "Quoter": "0xd8E1E7009802c914b0d39B31Fc1759A865b727B1"
+    }
+  }
+}

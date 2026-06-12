@@ -1,0 +1,34 @@
+[profile.default]
+src = "src"
+out = "out"
+libs = ["lib"]
+
+remappings = [
+    # ── typed-uniswap-v4 ──
+    "@typed-v4/=lib/typed-uniswap-v4/src/",
+    "@libraries/=lib/2025-12-panoptic/contracts/libraries/",
+
+    "@types/=lib/2025-12-panoptic/contracts/types/",
+
+    # ── solady (via bunni-v2) ──
+    "@solady/=lib/bunni-v2/lib/solady/src/",
+
+    # ── algebra ──
+    "@cryptoalgebra/integral-core/=lib/Algebra/src/core/",
+    "@cryptoalgebra/integral-base-plugin/=lib/algebra-plugins/src/plugin/stub/",
+    "@cryptoalgebra/integral-periphery/=lib/Algebra/src/periphery/",
+
+    # ── angstrom ──
+    "angstrom/=lib/angstrom/",
+    "v4-core/src/=lib/v4-core/src/",
+    "solady/src/=lib/angstrom/contracts/lib/solady/src/",
+    "solady/utils/=lib/angstrom/contracts/lib/solady/src/utils/"
+]
+
+ffi = true
+fs_permissions = [{ access = "read", path = "live/" }]
+
+[rpc_endpoints]
+arbitrum = "https://arb-mainnet.g.alchemy.com/v2/${ALCHEMY_API_KEY}"
+
+# See more config options https://github.com/foundry-rs/foundry/blob/master/crates/config/README.md#all-options

@@ -1,0 +1,39 @@
+[submodule "lib/typed-uniswap-v4"]
+	path = lib/typed-uniswap-v4
+	url = https://github.com/wvs-finance/typed-uniswap-v4
+[submodule "lib/bunni-v2"]
+	path = lib/bunni-v2
+	url = https://github.com/BunniApp/bunni-v2
+[submodule "lib/voltaire"]
+	path = lib/voltaire
+	url = https://github.com/Hijanhv/voltaire
+[submodule "lib/VolVantage"]
+	path = lib/VolVantage
+	url = https://github.com/Hassene26/VolVantage
+[submodule "lib/risk-neutral-hook"]
+	path = lib/risk-neutral-hook
+	url = https://github.com/scab24/univ4-risk-neutral-hook
+[submodule "lib/Algebra"]
+	path = lib/Algebra
+	url = https://github.com/cryptoalgebra/Algebra
+[submodule "lib/ReBalancer"]
+	path = lib/ReBalancer
+	url = https://github.com/0xnullifier/ReBalancer
+[submodule "lib/valorem-oracles"]
+	path = lib/valorem-oracles
+	url = https://github.com/valorem-labs-inc/oracles
+[submodule "lib/VolatilityHook-UniV4"]
+	path = lib/VolatilityHook-UniV4
+	url = https://github.com/0xth4nh/VolatilityHook-UniV4
+[submodule "lib/tempest"]
+	path = lib/tempest
+	url = https://github.com/fabrknt/tempest
+[submodule "lib/numoen"]
+	path = lib/numoen
+	url = https://github.com/robertleifke/numoen
+[submodule "lib/algebra-plugins"]
+	path = lib/algebra-plugins
+	url = https://github.com/cryptoalgebra/integral-team-plugins
+[submodule "lib/angstrom"]
+	path = lib/angstrom
+	url = https://github.com/SorellaLabs/angstrom

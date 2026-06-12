@@ -1,3 +1,0 @@
-# liq-soldk
-
-Liquidity SDK

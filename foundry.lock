@@ -1,0 +1,41 @@
+{
+  "lib/Algebra": {
+    "rev": "62f01348af24b96d7d16f6b56fbaa61e512ba1c5"
+  },
+  "lib/ReBalancer": {
+    "rev": "4919481fbcf49c75be1c299402e87bc5c6540b13"
+  },
+  "lib/VolVantage": {
+    "rev": "452d81fabece391c91782bb5f9be5dc3eee9123c"
+  },
+  "lib/VolatilityHook-UniV4": {
+    "rev": "4fa158ffeaba2e03db7df15a024524ebd70a9c1a"
+  },
+  "lib/algebra-plugins": {
+    "rev": "ae0d545a7d75125f2dfd688720bdce31f5694ac8"
+  },
+  "lib/bunni-v2": {
+    "rev": "2b303b8c1b9f8afbb169d62ba52da93d6d2171fe"
+  },
+  "lib/numoen": {
+    "tag": {
+      "name": "v1.0.0",
+      "rev": "ba7f76d72ea4e44f7bdd2fa882dfd355ad6010eb"
+    }
+  },
+  "lib/risk-neutral-hook": {
+    "rev": "9a897c19a0e99c91fd122b47ea9ca68a520c2755"
+  },
+  "lib/tempest": {
+    "rev": "3e57c9a531af2549fbdbe63e7c0182730121a0c9"
+  },
+  "lib/typed-uniswap-v4": {
+    "rev": "1fc9f59768992c50e6f494d4ae21efec0d190bc4"
+  },
+  "lib/valorem-oracles": {
+    "rev": "2ea81fedd13a2e415c599323bba35d4f5706efa5"
+  },
+  "lib/voltaire": {
+    "rev": "6c66128c3953c18ef46449bcdee07a91b7bf8d26"
+  }
+}
